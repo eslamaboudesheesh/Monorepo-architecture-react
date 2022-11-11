@@ -1,0 +1,14 @@
+{
+  "name": "@ie/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "lerna exec --scope @ie/web -- npm start "
+  },
+  "devDependencies": {
+    "@craco/craco": "^6.4.5",
+    "lerna": "^6.0.3"
+  }
+}
