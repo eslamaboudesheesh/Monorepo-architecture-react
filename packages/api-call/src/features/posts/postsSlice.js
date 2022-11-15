@@ -8,10 +8,7 @@ const initialState = {
 };
 
 export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
-  let response = await axios.get(
-    "https://n.vodafone.ie/bin/mvc.do/productcatalog/products?productClass=SmartPhone&productClass=BasicPhone&defaultPlan=&planId=&context=payg&customerType=R&_=1668174810062",
-    { headers: { "Access-Control-Allow-Origin": "*" } }
-  );
+  let response = await axios.get("https://dummyjson.com/posts");
   return response.data;
 });
 
