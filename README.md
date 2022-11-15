@@ -1,1 +1,1 @@
-# Monorepo-architecture-react
+# Monorepo-architecture-react-lerna
